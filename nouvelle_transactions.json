@@ -1,0 +1,709 @@
+[
+    {
+        "id": 1,
+        "montant": 1975227,
+        "canal": "ATM",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 2,
+        "montant": 1616496,
+        "canal": "agence",
+        "statut": "refusé",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 3,
+        "montant": 366555,
+        "canal": "ATM",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 4,
+        "montant": 1511041,
+        "canal": "ATM",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 5,
+        "montant": 1985836,
+        "canal": "mobile",
+        "statut": "refusé",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 6,
+        "montant": 1965678,
+        "canal": "agence",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 7,
+        "montant": 1453484,
+        "canal": "agence",
+        "statut": "refusé",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 8,
+        "montant": 1535927,
+        "canal": "ATM",
+        "statut": "en attente",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 9,
+        "montant": 447837,
+        "canal": "agence",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 10,
+        "montant": 1706232,
+        "canal": "ATM",
+        "statut": "en attente",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 11,
+        "montant": 1677473,
+        "canal": "agence",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 12,
+        "montant": 1188311,
+        "canal": "agence",
+        "statut": "en attente",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 13,
+        "montant": 930535,
+        "canal": "ATM",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 14,
+        "montant": 1697899,
+        "canal": "ATM",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 15,
+        "montant": 1578701,
+        "canal": "agence",
+        "statut": "refusé",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 16,
+        "montant": 543249,
+        "canal": "ATM",
+        "statut": "refusé",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 17,
+        "montant": 948094,
+        "canal": "agence",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 18,
+        "montant": 1395819,
+        "canal": "mobile",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 19,
+        "montant": 760623,
+        "canal": "web",
+        "statut": "refusé",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 20,
+        "montant": 467006,
+        "canal": "ATM",
+        "statut": "refusé",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 21,
+        "montant": 587689,
+        "canal": "web",
+        "statut": "en attente",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 22,
+        "montant": 1896185,
+        "canal": "web",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 23,
+        "montant": 820925,
+        "canal": "agence",
+        "statut": "refusé",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 24,
+        "montant": 1186759,
+        "canal": "web",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 25,
+        "montant": 1793912,
+        "canal": "ATM",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 26,
+        "montant": 845840,
+        "canal": "mobile",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 27,
+        "montant": 194144,
+        "canal": "agence",
+        "statut": "refusé",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 28,
+        "montant": 364655,
+        "canal": "web",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 29,
+        "montant": 1273351,
+        "canal": "ATM",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 30,
+        "montant": 425243,
+        "canal": "ATM",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 31,
+        "montant": 666995,
+        "canal": "agence",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 32,
+        "montant": 346576,
+        "canal": "ATM",
+        "statut": "refusé",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 33,
+        "montant": 1846237,
+        "canal": "mobile",
+        "statut": "en attente",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 34,
+        "montant": 1394720,
+        "canal": "web",
+        "statut": "en attente",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 35,
+        "montant": 514903,
+        "canal": "mobile",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 36,
+        "montant": 1729523,
+        "canal": "agence",
+        "statut": "refusé",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 37,
+        "montant": 1079081,
+        "canal": "agence",
+        "statut": "refusé",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 38,
+        "montant": 65036,
+        "canal": "mobile",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 39,
+        "montant": 1205748,
+        "canal": "mobile",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 40,
+        "montant": 984642,
+        "canal": "web",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 41,
+        "montant": 557753,
+        "canal": "mobile",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 42,
+        "montant": 283305,
+        "canal": "agence",
+        "statut": "refusé",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 43,
+        "montant": 1344511,
+        "canal": "web",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 44,
+        "montant": 1472119,
+        "canal": "mobile",
+        "statut": "en attente",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 45,
+        "montant": 239353,
+        "canal": "agence",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 46,
+        "montant": 1846187,
+        "canal": "web",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 47,
+        "montant": 225183,
+        "canal": "mobile",
+        "statut": "en attente",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 48,
+        "montant": 518469,
+        "canal": "mobile",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 49,
+        "montant": 1582202,
+        "canal": "web",
+        "statut": "refusé",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 50,
+        "montant": 324553,
+        "canal": "web",
+        "statut": "refusé",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 51,
+        "montant": 1819097,
+        "canal": "web",
+        "statut": "en attente",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 52,
+        "montant": 1705104,
+        "canal": "agence",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 53,
+        "montant": 1045218,
+        "canal": "mobile",
+        "statut": "refusé",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 54,
+        "montant": 1934726,
+        "canal": "mobile",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 55,
+        "montant": 1409859,
+        "canal": "ATM",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 56,
+        "montant": 1163048,
+        "canal": "agence",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 57,
+        "montant": 614246,
+        "canal": "web",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 58,
+        "montant": 1149661,
+        "canal": "ATM",
+        "statut": "refusé",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 59,
+        "montant": 1901261,
+        "canal": "web",
+        "statut": "refusé",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 60,
+        "montant": 831004,
+        "canal": "mobile",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 61,
+        "montant": 1657793,
+        "canal": "ATM",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 62,
+        "montant": 1176480,
+        "canal": "agence",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 63,
+        "montant": 148070,
+        "canal": "agence",
+        "statut": "en attente",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 64,
+        "montant": 813406,
+        "canal": "web",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 65,
+        "montant": 570026,
+        "canal": "ATM",
+        "statut": "refusé",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 66,
+        "montant": 360382,
+        "canal": "agence",
+        "statut": "refusé",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 67,
+        "montant": 1930430,
+        "canal": "web",
+        "statut": "en attente",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 68,
+        "montant": 1175475,
+        "canal": "web",
+        "statut": "en attente",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 69,
+        "montant": 813216,
+        "canal": "web",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 70,
+        "montant": 1822677,
+        "canal": "agence",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 71,
+        "montant": 927811,
+        "canal": "agence",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 72,
+        "montant": 395114,
+        "canal": "ATM",
+        "statut": "refusé",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 73,
+        "montant": 697879,
+        "canal": "mobile",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 74,
+        "montant": 668849,
+        "canal": "agence",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 75,
+        "montant": 665985,
+        "canal": "ATM",
+        "statut": "refusé",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 76,
+        "montant": 72768,
+        "canal": "agence",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 77,
+        "montant": 196716,
+        "canal": "ATM",
+        "statut": "en attente",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 78,
+        "montant": 1426059,
+        "canal": "web",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 79,
+        "montant": 1735336,
+        "canal": "ATM",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 80,
+        "montant": 361069,
+        "canal": "agence",
+        "statut": "en attente",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 81,
+        "montant": 319640,
+        "canal": "web",
+        "statut": "en attente",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 82,
+        "montant": 225049,
+        "canal": "web",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 83,
+        "montant": 792835,
+        "canal": "agence",
+        "statut": "en attente",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 84,
+        "montant": 1634242,
+        "canal": "ATM",
+        "statut": "en attente",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 85,
+        "montant": 1100813,
+        "canal": "ATM",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 86,
+        "montant": 628637,
+        "canal": "web",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 87,
+        "montant": 719420,
+        "canal": "agence",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 88,
+        "montant": 76975,
+        "canal": "web",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 89,
+        "montant": 142811,
+        "canal": "ATM",
+        "statut": "en attente",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 90,
+        "montant": 1076352,
+        "canal": "agence",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 91,
+        "montant": 1352994,
+        "canal": "ATM",
+        "statut": "en attente",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 92,
+        "montant": 761489,
+        "canal": "ATM",
+        "statut": "refusé",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 93,
+        "montant": 759124,
+        "canal": "mobile",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 94,
+        "montant": 1852338,
+        "canal": "ATM",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 95,
+        "montant": 1353024,
+        "canal": "mobile",
+        "statut": "ok",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 96,
+        "montant": 689528,
+        "canal": "mobile",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 97,
+        "montant": 517014,
+        "canal": "mobile",
+        "statut": "suspect",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 98,
+        "montant": 999645,
+        "canal": "ATM",
+        "statut": "en attente",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 99,
+        "montant": 605894,
+        "canal": "mobile",
+        "statut": "en attente",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 100,
+        "montant": 255401,
+        "canal": "web",
+        "statut": "en attente",
+        "date": "2026-06-10"
+    },
+    {
+        "id": 101,
+        "montant": 32456.0,
+        "canal": "agence",
+        "statut": "en attente",
+        "date": "2026-06-10"
+    }
+]
