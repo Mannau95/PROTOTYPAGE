@@ -32,14 +32,14 @@ def saisir_transaction(transactions_existantes):
         statut = input("Statut : ").strip().lower()
     
     from datetime import datetime
-    date = datetime.now().strftime("%Y-%m-%d")
+    date_iso = datetime.now().isoformat(sep='T', timespec='seconds')
     
     nouvelle = {
         "id": nouvel_id,
         "montant": round(montant, 2),
         "canal": canal,
         "statut": statut,
-        "date": date
+        "date": date_iso
     }
     return nouvelle
 def menu():

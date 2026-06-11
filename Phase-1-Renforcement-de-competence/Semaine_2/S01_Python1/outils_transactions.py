@@ -1,7 +1,7 @@
 import json
 import csv
 import random
-from datetime import datetime
+from datetime import datetime, timedelta
 
 #Génération de transaction aléatoire
 canaux = ["mobile", "agence", "ATM", "web"]
@@ -10,13 +10,19 @@ statuts = ["ok", "refusé", "suspect", "en attente"]
 def generer_transactions(nombre=100):
 
     transactions = []
+    maintenant = datetime.now()
     for i in range(1, nombre + 1 ):
+        delta_jours = random.randint(0, 60)
+        delta_secondes = random.randint(0, 86399)  # secondes dans une journée
+        date_transaction = maintenant - timedelta(days=delta_jours, seconds=delta_secondes)
+        date_iso = date_transaction.isoformat(sep='T', timespec='seconds')
+        
         transaction = {
              "id": i,
              "montant": round(random.randint(1, 2000000) ), 
              "canal": random.choice(canaux),
              "statut": random.choice(statuts),
-             "date": datetime.now().strftime("%Y-%m-%d")
+             "date": date_iso
         }
         transactions.append(transaction)
     return transactions
@@ -70,13 +76,13 @@ def ajouter_transaction(transactions, transaction):
             raise ValueError(f"Une transaction avec l'id {transaction['id']} existe déjà.")
     transactions.append(transaction)
     
-def sauvegarder_json(transactions, nom_fichier="nouvelle_transactions.json"):
+def sauvegarder_json(transactions, nom_fichier="transactions.json"):
     """Sauvegarde la liste des transactions dans un fichier JSON."""
     with open(nom_fichier, "w", encoding="utf-8") as f:
         json.dump(transactions, f, indent=4, ensure_ascii=False)
     print(f"Données sauvegardées dans {nom_fichier}(JSON)")
 
-def charger_depuis_json(nom_fichier="nouvelle_transactions.json"):
+def charger_depuis_json(nom_fichier="transactions.json"):
     """Charge une liste de transactions depuis un fichier JSON (si existant)."""
     try:
         with open(nom_fichier, "r", encoding="utf-8") as f:
