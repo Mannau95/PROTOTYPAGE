@@ -33,13 +33,15 @@ def saisir_transaction(transactions_existantes):
     
     from datetime import datetime
     date_iso = datetime.now().isoformat(sep='T', timespec='seconds')
+    num_tel = input("Numéro de téléphone Bénin (ex: +229 01 97 12 34 56) : ")
     
     nouvelle = {
         "id": nouvel_id,
         "montant": round(montant, 2),
         "canal": canal,
         "statut": statut,
-        "date": date_iso
+        "date": date_iso,
+        "num_tel": num_tel
     }
     return nouvelle
 def menu():

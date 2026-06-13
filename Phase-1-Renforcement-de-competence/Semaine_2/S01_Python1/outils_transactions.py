@@ -2,10 +2,24 @@ import json
 import csv
 import random
 from datetime import datetime, timedelta
+import re
 
 #Génération de transaction aléatoire
 canaux = ["mobile", "agence", "ATM", "web"]
 statuts = ["ok", "refusé", "suspect", "en attente"]
+
+def generer_numero_benin():
+    """Génère un numéro de mobile Bénin valide aléatoire."""
+    # Indicatif : +229, 229 ou 00229
+    indicatif = random.choice(["+229", "229", "00229"])
+    # Deux premiers chiffres après indicatif : 01
+    debut = "01"
+    # Troisième chiffre : 9, 6, 5, 4, 2
+    troisieme = random.choice(["9", "6", "5", "4", "2"])
+    # 7 chiffres restants
+    reste = ''.join([str(random.randint(0, 9)) for _ in range(7)])
+    numero = f"{indicatif} {debut} {troisieme}{reste}"  # avec espaces
+    return numero
 
 def generer_transactions(nombre=100):
 
@@ -22,7 +36,8 @@ def generer_transactions(nombre=100):
              "montant": round(random.randint(1, 2000000) ), 
              "canal": random.choice(canaux),
              "statut": random.choice(statuts),
-             "date": date_iso
+             "date": date_iso,
+             "num_tel": generer_numero_benin () 
         }
         transactions.append(transaction)
     return transactions
@@ -33,8 +48,9 @@ def afficher_transactions(transactions):
         print("Aucune transaction à afficher.")
         return
     print("\n--- Liste des transactions ---")
+    print(f"ID | Montant | Canal   | Statut   | Date                 | Numéro de téléphone")
     for t in transactions:
-        print(f"ID {t['id']:<3} | {t['montant']:>6.2f} FCFA| {t['canal']:<8} | {t['statut']:<8} | {t['date']}")
+        print(f"ID {t['id']:<3} | {t['montant']:>6.2f} FCFA| {t['canal']:<8} | {t['statut']:<8} | {t['date']:<19} | {t.get('num_tel', 'N/A')}")
 
 def filtrer_par_canal(transactions, canal):
     """Retourne la liste des transactions dont le canal correspond."""
