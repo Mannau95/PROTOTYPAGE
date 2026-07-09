@@ -1,0 +1,4 @@
+2026-07-02 15:47:33,489 - main - INFO - Transaction string - Score: 0.578 - Canal: string
+2026-07-02 15:49:04,913 - main - INFO - Transaction abc123 - Score: 0.1267 - Canal: mobile
+2026-07-02 15:49:33,773 - main - INFO - Transaction abc123 - Score: 0.3373 - Canal: mobile
+2026-07-04 21:49:03,473 - main - INFO - Transaction string - Score: 0.2376 - Canal: string

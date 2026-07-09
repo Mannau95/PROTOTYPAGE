@@ -1,7 +1,7 @@
 # generer_log.py (module pour générer un log unique)
 import random
 import uuid
-from datetime import datetime, timedelta, time
+from datetime import datetime, timedelta
 
 
 CANAUX = ["mobile", "en ligne", "ATM", "agence", "USSD"]

@@ -1,0 +1,3 @@
+2026-07-04 22:01:24,016 - main - INFO - API démarrée avec succès
+2026-07-04 22:04:56,912 - main - WARNING - Validation échouée : [{'type': 'greater_than', 'loc': ('body', 'montant'), 'msg': 'Input should be greater than 0', 'input': -15000.5, 'ctx': {'gt': 0.0}}, {'type': 'value_error', 'loc': ('body', 'num_tel'), 'msg': 'Value error, Format invalide. Utilisez +229 01 9X XX XX XX ou 229 01 5X XX XX XX', 'input': '+229 01 97 12 34 56', 'ctx': {'error': ValueError('Format invalide. Utilisez +229 01 9X XX XX XX ou 229 01 5X XX XX XX')}}]
+2026-07-04 22:04:57,239 - main - ERROR - Erreur interne : Object of type ValueError is not JSON serializable

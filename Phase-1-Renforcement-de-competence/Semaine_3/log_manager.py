@@ -1,11 +1,6 @@
-#!/usr/bin/env python3
-# log_manager.py – Gestion complète des logs transactionnels
-# Usage :
-#   python log_manager.py generate -n 1000 -p 0.05 -o logs.jsonl
-#   python log_manager.py simulate -f logs.jsonl -d 0.2
-#   python log_manager.py simulate --infini -d 0.1
-#   python log_manager.py parse < logs.jsonl
-#   python log_manager.py parse (lit stdin)
+
+#  Gestion complète des logs transactionnels
+
 
 import argparse
 import json
